@@ -49,6 +49,12 @@ group :development, :test do
   gem 'web-console', '2.0.0.beta3'
 end
 
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+end
+
 #heroKu required gems
 group :production do
 	gem 'pg',				'0.17.1' #ProtgreSQL	
